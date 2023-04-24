@@ -1,0 +1,8 @@
+tensorflow
+keras
+imgextract
+numpy
+requests
+argparse
+tabulate
+operator
