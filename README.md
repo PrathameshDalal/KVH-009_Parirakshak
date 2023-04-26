@@ -47,6 +47,19 @@ The images are organized into `V` and `NV` directories based on their correspond
 We applied image augmentation techniques such as rotation, width shift, height shift, horizontal flip, and shear to increase the diversity of the training data.
 
 ## Machine Learning 
+## Building the Model
+
+### Step 1: Model Architecture
+We used a simple CNN architecture consisting of 4 Convolutional layers and 2 Fully Connected layers. The final layer used a sigmoid activation function to give us the probability of the image being violent or non-violent.
+
+### Step 2: Model Compilation and Training
+We compiled our model with binary cross-entropy as the loss function and used the Adam optimizer. We trained our model using our augmented image data and achieved an accuracy of around 90%.
+
+### Step 3: Saving the Model
+We saved our trained model in the Keras format using the `model.save()` function.
+
+## Conclusion
+In this project, we successfully detected violent behavior in videos using image processing and CNNs. We used a simple CNN architecture and achieved an accuracy of around 90% with the augmented image data. We can further improve our model's accuracy by experimenting with different architectures and hyperparameters.
 
 ## Database Management System
 
