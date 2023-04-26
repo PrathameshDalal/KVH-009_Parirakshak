@@ -48,6 +48,8 @@ We applied image augmentation techniques such as rotation, width shift, height s
 
 ## Machine Learning 
 
+## Database Management System
+
 ## API
 
 ## GPS
