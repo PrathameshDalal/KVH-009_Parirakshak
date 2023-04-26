@@ -67,5 +67,15 @@ In this project, we successfully detected violent behavior in videos using image
 ## API
 
 ## GPS
+The Crime Dectection Alert System is designed to enhance the security in a particular area by automatically detecting crimes and informing the nearest police station. This is done by finding the geolocation of the camera using its IP address, and then using the coordinates of the camera as input to find the nearest police station within a radius of 2 km.
+
+Step 1: Geolocate the camera
+We first detect the crime then the system geolocates the camera (i.e location of crime) using the IP address of the camera with the help of IP-API.com 
+
+Step 2: Search for nearby Police Stations
+After the location of camera is returned we search for nearby Police staions with the help of Google Cloud API key using the geocoding api and places api services of google.
+
+Step 3: Informing the nearest Police Station
+Once the nearest Police sation is found then the Police authorites are informed about the crime with its location and to take necessary actions.
 
 ## Application Development
