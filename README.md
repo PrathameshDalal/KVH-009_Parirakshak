@@ -58,8 +58,9 @@ We compiled our model with binary cross-entropy as the loss function and used th
 ### Step 3: Saving the Model
 We saved our trained model in the Keras format using the `model.save()` function.
 
-## Conclusion
-In this project, we successfully detected violent behavior in videos using image processing and CNNs. We used a simple CNN architecture and achieved an accuracy of around 90% with the augmented image data. We can further improve our model's accuracy by experimenting with different architectures and hyperparameters.
+In this project, we successfully detected violent behavior in videos using image processing and CNNs. We used a simple CNN architecture and achieved an accuracy of around 86% with the augmented image data. We can further improve our model's accuracy by experimenting with different architectures and hyperparameters.
+
+
 
 ## Database Management System
 
