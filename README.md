@@ -24,7 +24,7 @@ Overall, the Kotlin-based application is an innovative and effective way to impr
 This project aims to detect violent behavior in videos using image processing and Convolutional Neural Networks (CNNs). The dataset used in this project is called **"A Dataset for Automatic Violence Detection in Videos"**, which contains videos with both violent and non-violent behaviors.
 
 ## Prerequisites
-1. TensorFlow 2.x
+1. TensorFlow 
 2. imgextract
 3. opencv-python
 4. scikit-learn
