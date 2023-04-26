@@ -21,6 +21,30 @@ Overall, the Kotlin-based application is an innovative and effective way to impr
 6. App Development
 
 ## Image Pre-Processing
+This project aims to detect violent behavior in videos using image processing and Convolutional Neural Networks (CNNs). The dataset used in this project is called **"A Dataset for Automatic Violence Detection in Videos"**, which contains videos with both violent and non-violent behaviors.
+
+## Prerequisites
+1. TensorFlow 2.x
+2. imgextract
+3. opencv-python
+4. scikit-learn
+5. moviepy
+6. matplotlib
+
+## Data Preprocessing
+
+### Step 1: Clone the Dataset
+Clone the [A-Dataset-for-Automatic-Violence-Detection-in-Videos](https://github.com/airtlab/A-Dataset-for-Automatic-Violence-Detection-in-Videos) repository to get the dataset.
+
+### Step 2: Extract Frames from Videos
+We extracted frames from each video to create our dataset. We wrote an `Extractor` class to do this, and then used multiprocessing to extract frames from all of the videos in the dataset. This step generated a large number of images in a training directory.
+
+### Step 3: Organize Images
+We then organized the extracted frames by creating two directories for our training data - one for violent images and one for non-violent images. 
+The images are organized into `V` and `NV` directories based on their corresponding video labels.
+
+### Step 4: Image Augmentation
+We applied image augmentation techniques such as rotation, width shift, height shift, horizontal flip, and shear to increase the diversity of the training data.
 
 ## Machine Learning 
 
