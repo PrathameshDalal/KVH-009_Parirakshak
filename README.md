@@ -65,6 +65,25 @@ In this project, we successfully detected violent behavior in videos using image
 ## Database Management System
 
 ## API
+### Step 1:Determine
+Determine the Risk percentage for database management system (Risk >50%)
+On Identification of (Risk > 50%)  the database management system MySQL a trigger is setup up.
+Trigger will set up, such as insert, update.
+
+### Step 2: API
+Trigger code that sends the notification when the condition is met.
+Use an API to send the notification to an app or SMS, depending on your requirements.
+For SMS notifications, use Twilio API: Use API key or credentials to authenticate your requests. Twilio API Start sends SMS
+For app notifications, use the Firebase Cloud Messaging (FCM) API for Android, iOS, and web apps. FCM API starts send notifications.
+
+### Step 3: Test
+Test the trigger to ensure it works as expected.
+Create a test entry in your database that meets the trigger condition to observe the notification being sent.
+Postman to test your SMS or app notification API integration to ensure it's working correctly.
+Monitor your SMS or app notification logs to ensure the notifications are being sent and received correctly
+
+
+
 
 ## GPS
 The Crime Dectection Alert System is designed to enhance the security in a particular area by automatically detecting crimes and informing the nearest police station. This is done by finding the geolocation of the camera using its IP address, and then using the coordinates of the camera as input to find the nearest police station within a radius of 2 km.
