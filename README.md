@@ -64,13 +64,13 @@ In this project, we successfully detected violent behavior in videos using image
 
 ## Database Management System
 In the Database Management System the trained machine learning model was used to create a SQL databse using the Table format.###
-**###Step 1**: Code for connecting Mysql server and Python is written in the VS Code to establish connection between Mysql database and the ML Model. 
+**Step 1**: Code for connecting Mysql server and Python is written in the VS Code to establish connection between Mysql database and the ML Model. 
 
-**###Step 2**: Creating a Table in MySql Server 8.0 using the Sql workbench and further updating that table using the Sql command line client and the Sql workbench credentials.
+**Step 2**: Creating a Table in MySql Server 8.0 using the Sql workbench and further updating that table using the Sql command line client and the Sql workbench credentials.
 
-**###Step 3** : The table created in the Mysql workbench contains four columns i.e. nature of crime, risk factor, location of crime and nearest police station. The data from the Machine learning model i.e. the Pyhton code written in the VS code would be displayed onto the table created everytime any event is triggered.
+**Step 3** : The table created in the Mysql workbench contains four columns i.e. nature of crime, risk factor, location of crime and nearest police station. The data from the Machine learning model i.e. the Pyhton code written in the VS code would be displayed onto the table created everytime any event is triggered.
 
-**###Step 4** : The table created would be then exported to the excel format i.e. google spreadsheet format because evetyime the data is updated would then simultaneoulsy be reflected onto the spreadsheet which then further be transferred to the next API process. 
+**Step 4** : The table created would be then exported to the excel format i.e. google spreadsheet format because evetyime the data is updated would then simultaneoulsy be reflected onto the spreadsheet which then further be transferred to the next API process. 
 
 ## API
 ### Step 1:Determine
