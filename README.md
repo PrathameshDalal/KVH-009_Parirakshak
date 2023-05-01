@@ -46,8 +46,9 @@ The images are organized into `V` and `NV` directories based on their correspond
 ### Step 4: Image Augmentation
 We applied image augmentation techniques such as rotation, width shift, height shift, horizontal flip, and shear to increase the diversity of the training data.
 
-## Machine Learning 
-## Building the Model
+## Machine Learning
+
+### Building the Model
 
 ### Step 1: Model Architecture
 We used a simple CNN architecture consisting of 4 Convolutional layers and 2 Fully Connected layers. The final layer used a sigmoid activation function to give us the probability of the image being violent or non-violent.
